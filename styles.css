@@ -1,3 +1,7 @@
+body {
+    font-family: arial, sans-serif;
+}
+
 .s_header{
     height: 30px;
     padding: 15px 15px 0px;
@@ -174,6 +178,10 @@
     clear: both;
 }
 
+.s_adv_form_btn {
+    clear: both;
+}
+
 .aft_lable {
     float: left;
     display: inline-block;
@@ -205,6 +213,7 @@
     vertical-align: middle;
     width: 50%;
 }
+
 .aft_expl {
     float: left;
     display: inline-block;
@@ -227,6 +236,37 @@
     line-height: 16px;
     vertical-align: middle
 }
+.afi_b{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+}
+.afi_b > input {
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+
+    outline: 0;
+    
+    font-style: inherit;
+    
+}
 .afi_q{
     float: left;
     display: inline-block;
@@ -245,7 +285,7 @@
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
-    padding: 1px 8px;
+    width: 100%;
 }
 afi_q > input:focus {
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -275,11 +315,6 @@ afi_q > input::-ms-clear {
     font-family: monospace;
     font-size: 11px;
     white-space: pre
-}
-
-.s_adv_form_btn {
-    clear: both;
-
 }
 
 @media (max-width:1056px) {
