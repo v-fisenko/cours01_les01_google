@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Пошук</title>
+    <link rel="shortcut icon" href="favicons.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="s_header">
+        <a class="h_logo_a" href="index.html" title="На сторінку Пошук">
+            <span class="h_logo">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">
+            </span>
+        </a>
+        <nav class="h_nav">
+            <a href="index.html">Пошук</a>
+            <a href="adv_search.html">Розширений пошук</a>
+        </nav>
+    </div>
+    <div class="s_logo">
+        <div class="s_logo_lable">
+            <label>Розширений пошук</label>
+        </div>
+    </div>
+
+    <div class="s_hr"></div>
+
+    <div class="s_adv_form">
+        <form action="https://google.com/search" method="GET" name="f">
+            <div class="s_adv_form_title">
+                <div class="aft_lable_v2">Знайти сторінки, що містять...</div>
+                <div class="aft_expl">Як це зробити в полі пошуку</div>
+            </div>
+            <div class="s_adv_form_input">
+                <div class="afi_lable">усі ці слова:</div>
+                <div class="afi_q"><input autofocus="autofocus" name="as_q" type="text"></div>
+                <div class="afi_expl">Введіть важливі слова: <span>триколірний рет-тер’єр</span></div>
+            </div>
+            <div class="s_adv_form_input">
+                <div class="afi_lable">точне слово або фразу:</div>
+                <div class="afi_q"><input name="as_epq" type="text"></div>
+                <div class="afi_expl">Візьміть точні слова в лапки: <span>&quot;рет-тер’єр&quot;</span></div>
+            </div>
+            <div class="s_adv_form_input">
+                <div class="afi_lable">будь-яке з цих слів:</div>
+                <div class="afi_q"><input name="as_epq" type="text"></div>
+                <div class="afi_expl">Введіть <span>OR</span> між усіма потрібними словами:<span>мініатюрні OR стандартні</span></div>
+            </div>
+            <div class="s_adv_form_input">
+                <div class="afi_lable">жодне з цих слів:</div>
+                <div class="afi_q"><input name="as_eq" type="text"></div>
+                <div class="afi_expl">Поставте знак мінус перед небажаними словами: <span>-гризун, -&quot;Джек Рассел&quot;</span></div>
+            </div>
+            <div class="s_adv_form_btn">
+                <input  type="hidden" name="tbs" value="">
+                <input type="submit" value="Розширений пошук">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
